@@ -1,4 +1,5 @@
 
 public interface Formato {
-	public String convertir();
+	public String parsear(Transferencia transferencia);
+	public String desparserar();
 }

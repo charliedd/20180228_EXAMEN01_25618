@@ -1,8 +1,6 @@
 
 public interface Protocolo {
-	public String destino;
-	public String orgien;
-	public double monto;
+	public String Enviar(String msg);
+	public String Recibir(String msg);
 	
-	String transferir();
 }
